@@ -5,7 +5,7 @@ import Photos from './Photos';
 function PhotoAlbum({ title, urls }) {
 
   return (
-    <div>
+    <div> 
       <h2>{title}</h2>
       <Photos urls={urls}/>
     </div>
