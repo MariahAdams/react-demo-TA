@@ -65,7 +65,9 @@ module.exports = {
               sourceMap: true,
               plugins: [
                 require('autoprefixer')(),
-                require('postcss-nested')()
+                require('postcss-nested')(),
+                require('postcss-import')(),
+                require('precss')(),
               ]
             }
           }
