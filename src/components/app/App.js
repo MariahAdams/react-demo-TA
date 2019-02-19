@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Header from './Header';
-import PhotoAlbum from './PhotoAlbum';
+import PhotoAlbum from '../photo/PhotoAlbum';
 import Footer from './Footer';
 import panda1 from '../../assets/panda1.jpg';
 import panda2 from '../../assets/panda2.jpg';
