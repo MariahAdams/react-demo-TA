@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Photo({ url }) {
 
   return (
-    <p>{url}</p>
+    <img src={url} alt="panda"/>
   );
 }
 

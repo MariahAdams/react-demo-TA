@@ -8,12 +8,9 @@ function Photos({ urls }) {
   });
 
   return (
-    <div>
-      Photos Component
-      <ul>
-        {listOfPhotos}
-      </ul>
-    </div>
+    <ul>
+      {listOfPhotos}
+    </ul>
   );
 }
 

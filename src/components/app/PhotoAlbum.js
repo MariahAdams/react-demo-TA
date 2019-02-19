@@ -6,7 +6,7 @@ function PhotoAlbum({ title, urls }) {
 
   return (
     <div>
-      PhotoAlbum Component {title}
+      <h2>{title}</h2>
       <Photos urls={urls}/>
     </div>
   );
