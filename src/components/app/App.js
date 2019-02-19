@@ -4,6 +4,8 @@ import PhotoAlbum from './PhotoAlbum';
 import Footer from './Footer';
 
 function App() {
+  const albumTitle = 'TBD';
+  const albumUrls = ['url1', 'url2', 'url3'];
 
   return (
     <Fragment>
@@ -11,7 +13,7 @@ function App() {
 
       <main>
         <h1>Hello World</h1>
-        <PhotoAlbum />
+        <PhotoAlbum title={albumTitle} urls={albumUrls}/>
       </main>
 
       <Footer />
