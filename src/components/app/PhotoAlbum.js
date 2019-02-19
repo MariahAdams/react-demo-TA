@@ -1,9 +1,13 @@
 import React from 'react';
+import Photos from './Photos';
 
 function PhotoAlbum() {
 
   return (
-    <div>PhotoAlbum Component</div>
+    <div>
+      PhotoAlbum Component
+      <Photos />
+    </div>
   );
 }
 
