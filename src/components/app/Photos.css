@@ -1,8 +1,12 @@
-:local(.photos) {
+.photos {
   list-style: none;
   padding: 0px;
 
   li {
     margin: 15px;
+  }
+
+  img {
+    width: 50px;
   }
 }
