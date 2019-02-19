@@ -1,16 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './Footer.css';
 
-class Footer extends Component {
-  
-  render() { 
+function Footer() {
 
-    return (
-      <footer className={styles.footer}>
-        Footer
-      </footer>
-    );
-  }
+  return (
+    <footer className={styles.footer}>
+      Footer
+    </footer>
+  );
 }
  
 export default Footer;

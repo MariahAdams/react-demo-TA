@@ -1,38 +1,16 @@
-import React, { Component, Fragment } from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import React, { Fragment } from 'react';
 import Header from './Header';
-import Home from './Home';
 import Footer from './Footer';
-import styles from './App.css';
 
-class App extends Component {
+function App() {
 
-  render() {
-
-    return (
-      <Router>
-        <Fragment>
-          <div className={styles.app}>
-            <header>
-              <h1>Hello React</h1>
-              <Header/>
-            </header>
-
-            <main>
-              <Switch>
-                <Route exact path="/" component={Home}/>
-                <Redirect to="/"/>
-              </Switch>
-            </main>
-
-            <footer>
-              <Footer/>
-            </footer>
-          </div>
-        </Fragment>
-      </Router>
-    );
-  }
+  return (
+    <Fragment>
+      <Header />
+      <h1>Hello World</h1>
+      <Footer />
+    </Fragment>
+  );
 }
 
 export default App;
